@@ -1,0 +1,50 @@
+*{
+  margin: auto;
+  line-height: normal;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+.content{
+  color: #000;
+};
+
+#navbar{
+  width: 100%;
+  background-color: lightblue;
+  margin-bottom: 70px;
+}
+
+#nav-header{
+  color: white;
+}
+
+#nav{
+  color: white;
+}
+
+.content{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 1.5%;
+  margin: 35px;
+  background-color: red;
+}
+
+footer{
+  margin-top: 105px;
+  background-color: lightblue;
+  text-align: center;
+}
