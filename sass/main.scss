@@ -1,10 +1,15 @@
+//colors
+$white: #f4f5f9;
+$content: #dddfe6;
+
+
 *{
   margin: auto;
   line-height: normal;
 }
 
 body{
-  background-color: whitesmoke;
+  background-color: $white;
 }
 
 h1{
@@ -16,9 +21,6 @@ h4{
   text-align: center;
 }
 
-.content{
-  color: #000;
-};
 
 #navbar{
   width: 100%;
@@ -35,12 +37,9 @@ h4{
 }
 
 .content{
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
   border-radius: 1.5%;
   margin: 35px;
-  background-color: red;
+  background-color: $content;
 }
 
 footer{
