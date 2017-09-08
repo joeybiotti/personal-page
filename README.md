@@ -1,5 +1,5 @@
 # Personal Page
 
-### A work in progress.
+Personal website, built using simply HTML, Bootstrap, and minimal styling. 
 
-This README will be better when everything else is done...
+_Function over fashion._ 
