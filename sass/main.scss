@@ -43,8 +43,9 @@ h3{
 }
 
 .tech{
-  margin-left: 125px;
-  margin-top: 75px;
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: $content;
 }
 
 .content{
@@ -54,13 +55,15 @@ h3{
 }
 
 .contact{
-  margin-left: 50%;
-  margin-top: 35px;
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: $content;
 }
 
 .projects{
-  margin-left: 50%;
-  margin-top: 35px;
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: $content;
 }
 
 footer{
