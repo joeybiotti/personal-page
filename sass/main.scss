@@ -3,6 +3,8 @@ $white: #f4f5f9;
 $content: #dddfe6;
 
 
+
+
 *{
   margin: auto;
   line-height: normal;
@@ -36,9 +38,14 @@ h4{
   color: white;
 }
 
+.tech{
+  margin-left: 125px;
+  margin-top: 75px;
+}
+
 .content{
   border-radius: 1.5%;
-  margin: 35px;
+  margin: 55px;
   background-color: $content;
 }
 
