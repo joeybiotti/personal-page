@@ -3,6 +3,8 @@ $white: #f4f5f9;
 $content: #dddfe6;
 
 
+
+
 *{
   margin: auto;
   line-height: normal;
@@ -21,6 +23,10 @@ h4{
   text-align: center;
 }
 
+h3{
+  text-align: center;
+}
+
 
 #navbar{
   width: 100%;
@@ -36,10 +42,32 @@ h4{
   color: white;
 }
 
+.tech{
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: $content;
+}
+
 .content{
   border-radius: 1.5%;
-  margin: 35px;
+  margin: 55px;
   background-color: $content;
+}
+
+.contact{
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: $content;
+}
+
+.projects{
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: $content;
+}
+
+#contact-imgs{
+  align-content: center;
 }
 
 footer{
