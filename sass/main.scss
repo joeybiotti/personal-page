@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
+
+
 //colors
 $white: #f4f5f9;
 $content: #dddfe6;
 
-
-
+//fonts
+$headerFont: 'IM Fell DW Pica', serif;
 
 *{
   margin: auto;
@@ -17,6 +20,7 @@ body{
 h1{
   color: black;
   text-align: center;
+  font-family: $headerFont;
 }
 
 h4{
@@ -49,8 +53,9 @@ h3{
 }
 
 .tech-img{
-  align-content: center;
+  text-align: center;
   font-size: 3.25em;
+  margin: auto;
 }
 
 .content{
@@ -63,6 +68,9 @@ h3{
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projects{
@@ -72,7 +80,7 @@ h3{
 }
 
 #contact-imgs{
-  align-content: center;
+  margin: auto;
 }
 
 footer{
