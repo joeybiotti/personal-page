@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
 
 
 //colors
 $white: #f4f5f9;
 $content: #dddfe6;
+$font: #252c41;
 
 //fonts
 $headerFont: 'IM Fell DW Pica', serif;
+$bodyFont: 'IM Fell Great Primer', serif;
 
 *{
   margin: auto;
   line-height: normal;
+  color: $font;
 }
 
 body{
@@ -21,16 +25,28 @@ h1{
   color: black;
   text-align: center;
   font-family: $headerFont;
+  font-size: 48px;
 }
 
 h4{
   text-align: center;
+  font-family: $headerFont;
 }
 
 h3{
   text-align: center;
+  font-family: $headerFont;
+
 }
 
+p{
+  font-family: $bodyFont;
+}
+
+.stinger{
+  text-align: center;
+  font-weight: 600;
+}
 
 #navbar{
   width: 100%;
@@ -85,7 +101,7 @@ h3{
 
 footer{
   margin-top: 105px;
-  background-color: lightblue;
+  background-color: $content;
   text-align: center;
 }
 
