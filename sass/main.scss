@@ -19,18 +19,15 @@ body {
   background-color: $white;
 }
 
-h1 {
+#header {
   color: $font;
   text-shadow: 1px 1.5px #79a8a9;
   text-align: center;
   font-family: $headerFont;
-  font-size: 48px;
 }
 
-h2 {
-  text-align: center;
-  text-shadow: 1px 1.5px $white;
-  font-family: $headerFont;
+h1{
+  font-size: 72px;
 }
 
 h3 {
