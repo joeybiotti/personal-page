@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
-
-
 //colors
 $white: #f4f7f7;
 $content: #aacfd0;
 $font: #1f4e5f;
-
 //fonts
-$headerFont: 'IM Fell DW Pica', serif;
-$bodyFont: 'IM Fell Great Primer', serif;
-
-*{
+$headerFont: 'IM Fell DW Pica',
+serif;
+$bodyFont: 'IM Fell Great Primer',
+serif;
+* {
   margin: auto;
   line-height: normal;
   color: $font;
 }
 
-body{
+body {
   background-color: $white;
 }
 
-h1{
+h1 {
   color: $font;
   text-shadow: 1px 1.5px #79a8a9;
   text-align: center;
@@ -29,86 +27,87 @@ h1{
   font-size: 48px;
 }
 
-h2{
+h2 {
   text-align: center;
   text-shadow: 1px 1.5px $white;
   font-family: $headerFont;
 }
 
-h3{
+h3 {
   text-align: center;
   text-shadow: 1px 1.5px $white;
   font-family: $headerFont;
-
 }
 
-p{
+p {
   font-family: $bodyFont;
 }
 
-.stinger{
+.stinger {
   text-align: center;
   font-weight: 600;
 }
 
-#navbar{
+#navbar {
   width: 100%;
   background-color: lightblue;
   margin-bottom: 70px;
 }
 
-#nav-header{
+#nav-header {
   color: white;
 }
 
-#nav{
+#nav {
   color: white;
 }
 
-.tech{
+.tech {
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
 }
 
-.tech-img{
+.tech-img {
   text-align: center;
   font-size: 3.25em;
   margin: auto;
 }
 
-.content{
+.content {
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
+  box-shadow: 1.5px 1.25px #79a8a9;
 }
 
-.contact{
+.contact {
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projects{
+.projects {
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
 }
 
-#contact-imgs{
+#contact-imgs {
   margin: auto;
+  margin: 3px 3px;
 }
 
-footer{
+footer {
   margin-top: 105px;
+  padding: 10px 8px;
   background-color: $content;
   text-align: center;
 }
 
-.footer_img{
+.footer_img {
   width: 32px;
   height: 32px;
 }
