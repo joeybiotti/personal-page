@@ -3,9 +3,9 @@
 
 
 //colors
-$white: #f4f5f9;
-$content: #dddfe6;
-$font: #252c41;
+$white: #f4f7f7;
+$content: #aacfd0;
+$font: #1f4e5f;
 
 //fonts
 $headerFont: 'IM Fell DW Pica', serif;
@@ -22,19 +22,22 @@ body{
 }
 
 h1{
-  color: black;
+  color: $font;
+  text-shadow: 1px 1.5px #79a8a9;
   text-align: center;
   font-family: $headerFont;
   font-size: 48px;
 }
 
-h4{
+h2{
   text-align: center;
+  text-shadow: 1px 1.5px $white;
   font-family: $headerFont;
 }
 
 h3{
   text-align: center;
+  text-shadow: 1px 1.5px $white;
   font-family: $headerFont;
 
 }
