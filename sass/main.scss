@@ -83,6 +83,19 @@ p {
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
+  margin: 12px;
+  padding: 10px;
+}
+
+.contentText{
+  margin: 12px;
+  padding: 11px;
+}
+
+.projTitle{
+  text-align: center;
+  font-family: $headerFont;
+  text-shadow: 0.25px 0.75px $shadow;
 }
 
 #contact-imgs {
