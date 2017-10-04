@@ -3,10 +3,10 @@
 
 
 //colors
-$white: #f4f5f9 ;
-$content: #dddfe6;
-$font: #252c41;
-$shadow:#f1404b ;
+$white: #f0f5f9 ;
+$content: #c9d6de  ;
+$font: #52616a ;
+$shadow:#1e2022  ;
 
 //fonts
 $headerFont: 'Special Elite', cursive;
@@ -50,8 +50,6 @@ p {
   font-weight: 600;
 }
 
-
-
 .tech {
   border-radius: 1.5%;
   margin: 55px;
@@ -65,10 +63,9 @@ p {
 }
 
 .content {
-  border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
-  box-shadow: 1.5px 1.25px #3E4348;
+  box-shadow: 5px 5px 3px #888888;
 }
 
 .contact {
