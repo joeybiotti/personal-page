@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica');
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 //colors
-$white: #f4f7f7;
-$content: #aacfd0;
-$font: #1f4e5f;
+$white: #f0f5f9 ;
+$content: #c9d6de  ;
+$font: #52616a ;
+$shadow:#1e2022  ;
+
 //fonts
-$headerFont: 'IM Fell DW Pica',
-serif;
-$bodyFont: 'IM Fell Great Primer',
-serif;
+$headerFont: 'Special Elite', cursive;
+$bodyFont: 'Roboto', sans-serif;
+
+
 * {
   margin: auto;
   line-height: normal;
@@ -20,19 +24,20 @@ body {
 }
 
 #header {
-  color: $font;
-  text-shadow: 1px 1.5px #79a8a9;
+  color: $headerFont;
+  text-shadow: 2px 1px $shadow;
   text-align: center;
   font-family: $headerFont;
 }
 
 h1{
   font-size: 72px;
+  text-shadow: 2px 2px $shadow;
 }
 
 h3 {
   text-align: center;
-  text-shadow: 1px 1.5px $white;
+  text-shadow: 1px 1.5px $shadow;
   font-family: $headerFont;
 }
 
@@ -43,20 +48,6 @@ p {
 .stinger {
   text-align: center;
   font-weight: 600;
-}
-
-#navbar {
-  width: 100%;
-  background-color: lightblue;
-  margin-bottom: 70px;
-}
-
-#nav-header {
-  color: white;
-}
-
-#nav {
-  color: white;
 }
 
 .tech {
@@ -72,10 +63,9 @@ p {
 }
 
 .content {
-  border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
-  box-shadow: 1.5px 1.25px #79a8a9;
+  box-shadow: 5px 5px 3px #888888;
 }
 
 .contact {
@@ -90,6 +80,19 @@ p {
   border-radius: 1.5%;
   margin: 55px;
   background-color: $content;
+  margin: 12px;
+  padding: 10px;
+}
+
+.contentText{
+  margin: 12px;
+  padding: 11px;
+}
+
+.projTitle{
+  text-align: center;
+  font-family: $headerFont;
+  text-shadow: 0.25px 0.75px $shadow;
 }
 
 #contact-imgs {
