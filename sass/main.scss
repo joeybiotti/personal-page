@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
-@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
-@import url('https://fonts.googleapis.com/css?family=Creepster');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 //colors
-$white: #FFFFF3;
-$content: #383A3F;
-$font: #F68657;
-$shadow: #FFFFF3;
+$white: #f4f5f9 ;
+$content: #dddfe6;
+$font: #252c41;
+$shadow:#f1404b ;
 
 //fonts
-$headerFont: 'Creepster', cursive;
-$bodyFont: 'IM Fell Great Primer', serif;
+$headerFont: 'Special Elite', cursive;
+$bodyFont: 'Roboto', sans-serif;
 
 
 * {
@@ -21,7 +20,7 @@ $bodyFont: 'IM Fell Great Primer', serif;
 }
 
 body {
-  background-color: #1F2124;
+  background-color: $white;
 }
 
 #header {
@@ -33,7 +32,7 @@ body {
 
 h1{
   font-size: 72px;
-  text-shadow: 2px 2px $white;
+  text-shadow: 2px 2px $shadow;
 }
 
 h3 {
