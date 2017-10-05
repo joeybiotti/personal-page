@@ -102,7 +102,9 @@ p {
 .projTitle{
   text-align: center;
   font-family: $headerFont;
-  text-shadow: 0.25px 0.75px $shadow;
+  color: $shadow;
+  text-shadow: 0.15px 0.25px white;
+  font-weight: 600;
 }
 
 #contact-imgs {
