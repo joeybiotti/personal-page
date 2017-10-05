@@ -32,6 +32,19 @@ body {
   font-family: $headerFont;
 }
 
+#headshot{
+  display: flex;
+}
+
+#pic{
+  border-radius: 55%;
+  height: 225px;
+  width: 225px;
+  box-shadow: 5px 5px 3px #888888;
+  border: 1px #000 solid;
+  flex: center;
+}
+
 h1{
   font-size: 72px;
   text-shadow: 2px 2px $shadow;
@@ -45,11 +58,6 @@ h3 {
 
 p {
   font-family: $bodyFont;
-}
-
-.stinger {
-  text-align: center;
-  font-weight: 600;
 }
 
 .tech {
