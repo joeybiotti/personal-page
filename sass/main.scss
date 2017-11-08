@@ -24,7 +24,7 @@ body {
 }
 
 #header {
-  padding-top: 35px;
+  padding-top: 55px;
   color: $headerFont;
   background-color: $content;
   text-shadow: 2px 1px $shadow;
@@ -44,6 +44,12 @@ body {
   box-shadow: 5px 5px 3px #888888;
   border: 1px #000 solid;
   flex: center;
+}
+
+#nav{
+  font-family: $headerFont;
+  background-color: $content; 
+  color: $font;
 }
 
 h1{
