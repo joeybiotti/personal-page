@@ -35,6 +35,7 @@ body {
 
 #headshot{
   display: flex;
+  padding-top: 8px;
 }
 
 #pic{
@@ -48,8 +49,15 @@ body {
 
 #nav{
   font-family: $headerFont;
-  background-color: $content; 
-  color: $font;
+  background-color: $font; 
+}
+
+#nav a{
+  color: $white;
+}
+
+#nav a:hover{
+  color: $shadow;
 }
 
 h1{
@@ -95,6 +103,7 @@ p {
 .contact {
   border-radius: 1.5%;
   margin: 55px;
+  padding-bottom: 12px;
   background-color: $content;
   align-items: center;
   justify-content: center;
