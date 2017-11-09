@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: auto;
+  line-height: normal;
+  color: #52616a; }
+
+body {
+  background-color: #f0f5f9; }
+
+#header {
+  padding-top: 50px;
+  color: "Special Elite", cursive;
+  background-color: #c9d6de;
+  text-shadow: 2px 1px #1e2022;
+  box-shadow: 5px 5px 3px #888888;
+  text-align: center;
+  font-family: "Special Elite", cursive; }
+
+#headshot {
+  display: flex;
+  padding-top: 8px; }
+
+#pic {
+  border-radius: 55%;
+  height: 225px;
+  width: 225px;
+  box-shadow: 5px 5px 3px #888888;
+  border: 1px #000 solid;
+  flex: center; }
+
+#nav {
+  font-family: "Special Elite", cursive;
+  background-color: #52616a; }
+
+#nav a {
+  color: #f0f5f9; }
+
+#nav a:hover {
+  color: #1e2022; }
+
+h1 {
+  font-size: 72px;
+  text-shadow: 2px 2px #1e2022; }
+
+h3 {
+  text-align: center;
+  text-shadow: 1px 1.5px #1e2022;
+  font-family: "Special Elite", cursive; }
+
+p {
+  font-family: "Roboto", sans-serif; }
+
+.tech {
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: #c9d6de; }
+
+.tech-img {
+  text-align: center;
+  font-size: 3.25em;
+  margin: auto;
+  text-shadow: 1px 1px #000; }
+
+.techText {
+  margin: 12px;
+  padding: 12px;
+  text-align: center; }
+
+.content {
+  margin: 55px;
+  background-color: #c9d6de;
+  box-shadow: 5px 5px 3px #888888; }
+
+.contact {
+  border-radius: 1.5%;
+  margin: 55px;
+  padding-bottom: 12px;
+  background-color: #c9d6de;
+  align-items: center;
+  justify-content: center; }
+
+.projects {
+  border-radius: 1.5%;
+  margin: 55px;
+  background-color: #c9d6de;
+  margin: 12px;
+  padding: 10px; }
+
+.contentText {
+  margin: 12px;
+  padding: 11px; }
+
+.projTitle {
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  color: #1e2022;
+  text-shadow: 0.15px 0.25px white;
+  font-weight: 600; }
+
+.projectImg {
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 3px #888888; }
+
+#contact-imgs {
+  margin: auto;
+  margin: 3px 3px; }
+
+footer {
+  margin-top: 105px;
+  padding: 10px 8px;
+  background-color: #c9d6de;
+  text-align: center; }
+
+.footer_img {
+  width: 32px;
+  height: 32px; }
