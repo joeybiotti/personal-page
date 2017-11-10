@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
 //colors
 $white: #f0f5f9 ;
 $content: #c9d6de  ;
 $font: #52616a ;
-$shadow:#1e2022  ;
+$shadow:#1e2022;
+$red: #F16B6F;
 
 //fonts
 $headerFont: 'Special Elite', cursive;
-$bodyFont: 'Roboto', sans-serif;
+$bodyFont: 'Oswald', sans-serif;
 
 
 * {
@@ -27,7 +28,7 @@ body {
   padding-top: 50px;
   color: $headerFont;
   background-color: $content;
-  text-shadow: 2px 1px $shadow;
+  text-shadow: 2px 1px $red;
   box-shadow: 5px 5px 3px #888888;
   text-align: center;
   font-family: $headerFont;
@@ -79,7 +80,7 @@ body {
 
 h1{
   font-size: 72px;
-  text-shadow: 2px 2px $shadow;
+  text-shadow: 2px 2px $red;
 }
 
 h3 {
@@ -117,6 +118,7 @@ p {
   padding-bottom: 2.75px;
   background-color: $content;
   box-shadow: 5px 5px 3px #888888;
+  border-radius: 3px;
 }
 
 .contact {
@@ -147,18 +149,20 @@ p {
   color: $font;
   text-shadow: 1px 1px $shadow;
   font-weight: 600;
-  font-size: 22px;
-  text-decoration: underline;
+  font-size: 25px;
 }
 
-.projTitle:hover{
-  color: $white;
-}
 
 .projectImg{
   display: flex;
   justify-content: center;
   box-shadow: 5px 5px 3px #888888;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.projectImg:hover{
+  opacity: 0.7;
 }
 
 #contact-imgs {
