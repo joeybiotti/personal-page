@@ -65,17 +65,18 @@ p {
 .techText {
   margin: 12px;
   padding: 12px;
-  text-align: center; }
+  text-align: justify; }
 
 .content {
   margin: 55px;
+  padding-top: 3px;
+  padding-bottom: 2.75px;
   background-color: #c9d6de;
   box-shadow: 5px 5px 3px #888888; }
 
 .contact {
   border-radius: 1.5%;
   margin: 55px;
-  padding-bottom: 12px;
   background-color: #c9d6de;
   align-items: center;
   justify-content: center; }
@@ -116,3 +117,7 @@ footer {
 .footer_img {
   width: 32px;
   height: 32px; }
+
+@media only screen and (max-width: 768px) {
+  .projectImg {
+    width: 100%; } }
