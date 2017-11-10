@@ -90,14 +90,20 @@ p {
 
 .contentText {
   margin: 12px;
-  padding: 11px; }
+  padding: 11px;
+  font-size: 16px; }
 
 .projTitle {
   text-align: center;
   font-family: "Special Elite", cursive;
-  color: #1e2022;
-  text-shadow: 0.15px 0.25px white;
-  font-weight: 600; }
+  color: #52616a;
+  text-shadow: 1px 1px #1e2022;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: underline; }
+
+.projTitle:hover {
+  color: #f0f5f9; }
 
 .projectImg {
   display: flex;

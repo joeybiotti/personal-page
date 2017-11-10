@@ -121,14 +121,21 @@ p {
 .contentText{
   margin: 12px;
   padding: 11px;
+  font-size: 16px;
 }
 
 .projTitle{
   text-align: center;
   font-family: $headerFont;
-  color: $shadow;
-  text-shadow: 0.15px 0.25px white;
+  color: $font;
+  text-shadow: 1px 1px $shadow;
   font-weight: 600;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.projTitle:hover{
+  color: $white;
 }
 
 .projectImg{
