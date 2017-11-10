@@ -60,6 +60,23 @@ body {
   color: $shadow;
 }
 
+// navbar fades on scroll -- see main.js for jquery function
+#nav {
+    transition: all 0.6s ease-out;
+}
+
+#nav {
+    transition: opacity 0.25s;
+}
+
+.navbar-fixed {
+    opacity: 0.75
+}
+
+.navbar-trans {
+    opacity: 1;
+}
+
 h1{
   font-size: 72px;
   text-shadow: 2px 2px $shadow;
