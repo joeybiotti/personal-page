@@ -34,9 +34,13 @@ body {
   font-family: $headerFont;
 }
 
-#headshot{
-  display: flex;
-  padding-top: 8px;
+#skyline{
+  width: 100%;
+  z-index: -1;
+}
+
+#subheader{
+  z-index: auto;
 }
 
 #pic{
