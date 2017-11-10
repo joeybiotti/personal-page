@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 * {
   margin: auto;
   line-height: normal;
@@ -12,7 +12,7 @@ body {
   padding-top: 50px;
   color: "Special Elite", cursive;
   background-color: #c9d6de;
-  text-shadow: 2px 1px #1e2022;
+  text-shadow: 2px 1px #F16B6F;
   box-shadow: 5px 5px 3px #888888;
   text-align: center;
   font-family: "Special Elite", cursive; }
@@ -53,7 +53,7 @@ body {
 
 h1 {
   font-size: 72px;
-  text-shadow: 2px 2px #1e2022; }
+  text-shadow: 2px 2px #F16B6F; }
 
 h3 {
   text-align: center;
@@ -61,7 +61,7 @@ h3 {
   font-family: "Special Elite", cursive; }
 
 p {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Oswald", sans-serif; }
 
 .tech {
   border-radius: 1.5%;
@@ -84,7 +84,8 @@ p {
   padding-top: 3px;
   padding-bottom: 2.75px;
   background-color: #c9d6de;
-  box-shadow: 5px 5px 3px #888888; }
+  box-shadow: 5px 5px 3px #888888;
+  border-radius: 3px; }
 
 .contact {
   border-radius: 1.5%;
@@ -111,16 +112,17 @@ p {
   color: #52616a;
   text-shadow: 1px 1px #1e2022;
   font-weight: 600;
-  font-size: 22px;
-  text-decoration: underline; }
-
-.projTitle:hover {
-  color: #f0f5f9; }
+  font-size: 25px; }
 
 .projectImg {
   display: flex;
   justify-content: center;
-  box-shadow: 5px 5px 3px #888888; }
+  box-shadow: 5px 5px 3px #888888;
+  border-radius: 5px;
+  transition: 0.3s; }
+
+.projectImg:hover {
+  opacity: 0.8; }
 
 #contact-imgs {
   margin: auto;
