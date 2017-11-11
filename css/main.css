@@ -60,11 +60,14 @@ h1 {
 
 h3 {
   text-align: center;
-  text-shadow: 1px 1.5px #1e2022;
+  text-shadow: 1px 1.5px #F16B6F;
   font-family: "Special Elite", cursive; }
 
 p {
   font-family: "Oswald", sans-serif; }
+
+#about {
+  margin-top: 100px; }
 
 .tech {
   border-radius: 1.5%;
@@ -113,7 +116,7 @@ p {
   text-align: center;
   font-family: "Special Elite", cursive;
   color: #52616a;
-  text-shadow: 1px 1px #1e2022;
+  text-shadow: 1px 1px #F16B6F;
   font-weight: 600;
   font-size: 25px; }
 
