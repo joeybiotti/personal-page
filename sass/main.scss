@@ -34,9 +34,13 @@ body {
   font-family: $headerFont;
 }
 
-#headshot{
-  display: flex;
-  padding-top: 8px;
+#skyline{
+  width: 100%;
+  z-index: -1;
+}
+
+#subheader{
+  z-index: auto;
 }
 
 #pic{
@@ -85,12 +89,16 @@ h1{
 
 h3 {
   text-align: center;
-  text-shadow: 1px 1.5px $shadow;
+  text-shadow: 1px 1.5px $red;
   font-family: $headerFont;
 }
 
 p {
   font-family: $bodyFont;
+}
+
+#about{
+  margin-top: 100px;
 }
 
 .tech {
@@ -147,7 +155,7 @@ p {
   text-align: center;
   font-family: $headerFont;
   color: $font;
-  text-shadow: 1px 1px $shadow;
+  text-shadow: 1px 1px $red;
   font-weight: 600;
   font-size: 25px;
 }
