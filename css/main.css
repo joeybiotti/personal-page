@@ -76,9 +76,9 @@ p {
 
 .tech-img {
   text-align: center;
-  font-size: 3.25em;
+  font-size: 3.75em;
   margin: auto;
-  text-shadow: 1px 1px #000; }
+  text-shadow: 1px 1px 5px darkslategray; }
 
 .techText {
   margin: 12px;
