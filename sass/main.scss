@@ -87,10 +87,14 @@ h1{
   text-shadow: 2px 2px $red;
 }
 
-h3 {
+h3, h2{
   text-align: center;
   text-shadow: 1px 1.5px $red;
   font-family: $headerFont;
+}
+
+h2{
+  padding-bottom: 1.15em;
 }
 
 p {
@@ -107,11 +111,17 @@ p {
   background-color: $content;
 }
 
-.tech-img {
-  text-align: center;
-  font-size: 3.75em;
-  margin: auto;
-  text-shadow: 1px 1px 5px darkslategray;
+// .tech-img {
+//   text-align: center;
+//   font-size: 3.75em;
+//   margin: auto;
+//   text-shadow: 1px 1px 5px darkslategray;
+// }
+
+.techImg{
+  width: 5.5em;
+  height: 5.75em;
+  margin: 1em;
 }
 
 .techText{
