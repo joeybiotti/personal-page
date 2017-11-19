@@ -107,11 +107,16 @@ p {
   background-color: $content;
 }
 
-.tech-img {
-  text-align: center;
-  font-size: 3.75em;
-  margin: auto;
-  text-shadow: 1px 1px 5px darkslategray;
+// .tech-img {
+//   text-align: center;
+//   font-size: 3.75em;
+//   margin: auto;
+//   text-shadow: 1px 1px 5px darkslategray;
+// }
+
+.techImg{
+  width: 75px;
+  height: 75px;
 }
 
 .techText{

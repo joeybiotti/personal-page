@@ -74,11 +74,9 @@ p {
   margin: 55px;
   background-color: #c9d6de; }
 
-.tech-img {
-  text-align: center;
-  font-size: 3.75em;
-  margin: auto;
-  text-shadow: 1px 1px 5px darkslategray; }
+.techImg {
+  width: 75px;
+  height: 75px; }
 
 .techText {
   margin: 12px;
