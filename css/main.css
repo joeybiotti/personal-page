@@ -58,10 +58,13 @@ h1 {
   font-size: 72px;
   text-shadow: 2px 2px #F16B6F; }
 
-h3 {
+h3, h2 {
   text-align: center;
   text-shadow: 1px 1.5px #F16B6F;
   font-family: "Special Elite", cursive; }
+
+h2 {
+  padding-bottom: 1.15em; }
 
 p {
   font-family: "Oswald", sans-serif; }
