@@ -82,6 +82,9 @@ p {
   height: 5.75em;
   margin: 1em; }
 
+.techImg:hover {
+  opacity: 0.45; }
+
 .techText {
   margin: 12px;
   padding: 12px;

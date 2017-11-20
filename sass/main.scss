@@ -111,17 +111,14 @@ p {
   background-color: $content;
 }
 
-// .tech-img {
-//   text-align: center;
-//   font-size: 3.75em;
-//   margin: auto;
-//   text-shadow: 1px 1px 5px darkslategray;
-// }
-
 .techImg{
   width: 5.5em;
   height: 5.75em;
   margin: 1em;
+}
+
+.techImg:hover{
+  opacity: 0.45;
 }
 
 .techText{
