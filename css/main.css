@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Vampiro+One");
 * {
   margin: auto;
   line-height: normal;
-  color: #52616a; }
+  color: #252c41; }
 
 body {
   background-color: #f0f5f9; }
 
 #header {
   padding-top: 50px;
-  color: "Special Elite", cursive;
-  background-color: #c9d6de;
-  text-shadow: 2px 1px #F16B6F;
+  color: "Vampiro One", cursive;
+  background-color: #dddfe6;
+  text-shadow: 2px 1px #f1404b;
   box-shadow: 5px 5px 3px #888888;
   text-align: center;
-  font-family: "Special Elite", cursive; }
+  font-family: "Vampiro One", cursive; }
 
 #skyline {
   width: 100%;
@@ -33,14 +34,14 @@ body {
   flex: center; }
 
 #nav {
-  font-family: "Special Elite", cursive;
-  background-color: #52616a; }
+  font-family: "Vampiro One", cursive;
+  background-color: #252c41; }
 
 #nav a {
   color: #f0f5f9; }
 
 #nav a:hover {
-  color: #1e2022; }
+  color: #f4f5f9; }
 
 #nav {
   transition: all 0.6s ease-out; }
@@ -56,12 +57,12 @@ body {
 
 h1 {
   font-size: 72px;
-  text-shadow: 2px 2px #F16B6F; }
+  text-shadow: 2px 2px #f1404b; }
 
 h3, h2 {
   text-align: center;
-  text-shadow: 1px 1.5px #F16B6F;
-  font-family: "Special Elite", cursive; }
+  text-shadow: 1px 1.5px #f1404b;
+  font-family: "Vampiro One", cursive; }
 
 h2 {
   padding-bottom: 1.15em; }
@@ -69,13 +70,16 @@ h2 {
 p {
   font-family: "Oswald", sans-serif; }
 
+#mainTitle {
+  font-size: 14rem; }
+
 #about {
   margin-top: 100px; }
 
 .tech {
   border-radius: 1.5%;
   margin: 55px;
-  background-color: #c9d6de; }
+  background-color: #dddfe6; }
 
 .techImg {
   width: 5.5em;
@@ -94,21 +98,21 @@ p {
   margin: 55px;
   padding-top: 3px;
   padding-bottom: 2.75px;
-  background-color: #c9d6de;
+  background-color: #dddfe6;
   box-shadow: 5px 5px 3px #888888;
   border-radius: 3px; }
 
 .contact {
   border-radius: 1.5%;
   margin: 55px;
-  background-color: #c9d6de;
+  background-color: #dddfe6;
   align-items: center;
   justify-content: center; }
 
 .projects {
   border-radius: 1.5%;
   margin: 55px;
-  background-color: #c9d6de;
+  background-color: #dddfe6;
   margin: 12px;
   padding: 10px; }
 
@@ -119,9 +123,9 @@ p {
 
 .projTitle {
   text-align: center;
-  font-family: "Special Elite", cursive;
-  color: #52616a;
-  text-shadow: 1px 1px #F16B6F;
+  font-family: "Vampiro One", cursive;
+  color: #252c41;
+  text-shadow: 1px 1px #f1404b;
   font-weight: 600;
   font-size: 25px; }
 
@@ -142,7 +146,7 @@ p {
 footer {
   margin-top: 105px;
   padding: 10px 8px;
-  background-color: #c9d6de;
+  background-color: #dddfe6;
   text-align: center; }
 
 .footer_img {

@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Vampiro+One');
 
 
 //colors
 $white: #f0f5f9 ;
-$content: #c9d6de  ;
-$font: #52616a ;
-$shadow:#1e2022;
-$red: #F16B6F;
+$content: #dddfe6 ;
+$font: #252c41 ;
+$shadow: #f4f5f9;
+$red: #f1404b;
 
 //fonts
-$headerFont: 'Special Elite', cursive;
+$headerFont: 'Vampiro One', cursive;
 $bodyFont: 'Oswald', sans-serif;
 
 
@@ -54,7 +55,7 @@ body {
 
 #nav{
   font-family: $headerFont;
-  background-color: $font; 
+  background-color: $font;
 }
 
 #nav a{
@@ -99,6 +100,10 @@ h2{
 
 p {
   font-family: $bodyFont;
+}
+
+#mainTitle{
+  font-size: 14rem;
 }
 
 #about{
