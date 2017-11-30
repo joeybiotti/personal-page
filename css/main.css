@@ -34,7 +34,7 @@ body {
   color: #f0f5f9; }
 
 #nav a:hover {
-  color: #f4f5f9; }
+  color: #f1404b; }
 
 #nav {
   transition: all 0.6s ease-out; }
@@ -58,13 +58,10 @@ h3, h2 {
   font-family: "Fugaz One", cursive; }
 
 h2 {
-  padding-bottom: 1.15em; }
+  padding-bottom: 1.25em; }
 
 p {
   font-family: "Oswald", sans-serif; }
-
-.headerImg {
-  padding-top: 1.25px; }
 
 #mainTitle {
   font-size: 14rem; }
