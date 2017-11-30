@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Vampiro+One");
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One");
 * {
   margin: auto;
   line-height: normal;
@@ -11,12 +12,12 @@ body {
 
 #header {
   padding-top: 50px;
-  color: "Vampiro One", cursive;
+  color: "Fugaz One", cursive;
   background-color: #dddfe6;
   text-shadow: 2px 1px #f1404b;
   box-shadow: 5px 5px 3px #888888;
   text-align: center;
-  font-family: "Vampiro One", cursive; }
+  font-family: "Fugaz One", cursive; }
 
 #skyline {
   width: 100%;
@@ -34,7 +35,7 @@ body {
   flex: center; }
 
 #nav {
-  font-family: "Vampiro One", cursive;
+  font-family: "Fugaz One", cursive;
   background-color: #252c41; }
 
 #nav a {
@@ -62,7 +63,7 @@ h1 {
 h3, h2 {
   text-align: center;
   text-shadow: 1px 1.5px #f1404b;
-  font-family: "Vampiro One", cursive; }
+  font-family: "Fugaz One", cursive; }
 
 h2 {
   padding-bottom: 1.15em; }
@@ -123,7 +124,7 @@ p {
 
 .projTitle {
   text-align: center;
-  font-family: "Vampiro One", cursive;
+  font-family: "Fugaz One", cursive;
   color: #252c41;
   text-shadow: 1px 1px #f1404b;
   font-weight: 600;
