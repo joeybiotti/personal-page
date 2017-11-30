@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Vampiro+One');
-
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
 
 //colors
 $white: #f0f5f9 ;
@@ -11,7 +11,7 @@ $shadow: #f4f5f9;
 $red: #f1404b;
 
 //fonts
-$headerFont: 'Vampiro One', cursive;
+$headerFont: 'Fugaz One', cursive;
 $bodyFont: 'Oswald', sans-serif;
 
 
@@ -26,7 +26,7 @@ body {
 }
 
 #header {
-  padding-top: 50px;
+  padding-top: 32px;
   color: $headerFont;
   background-color: $content;
   text-shadow: 2px 1px $red;
@@ -42,15 +42,6 @@ body {
 
 #subheader{
   z-index: auto;
-}
-
-#pic{
-  border-radius: 55%;
-  height: 225px;
-  width: 225px;
-  box-shadow: 5px 5px 3px #888888;
-  border: 1px #000 solid;
-  flex: center;
 }
 
 #nav{
@@ -84,7 +75,7 @@ body {
 }
 
 h1{
-  font-size: 72px;
+  font-size: 68px;
   text-shadow: 2px 2px $red;
 }
 
@@ -100,6 +91,10 @@ h2{
 
 p {
   font-family: $bodyFont;
+}
+
+.headerImg{
+  padding-top: 1.25px;
 }
 
 #mainTitle{
