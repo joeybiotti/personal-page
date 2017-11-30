@@ -54,7 +54,7 @@ body {
 }
 
 #nav a:hover{
-  color: $shadow;
+  color: $red;
 }
 
 // navbar fades on scroll -- see main.js for jquery function
@@ -86,15 +86,11 @@ h3, h2{
 }
 
 h2{
-  padding-bottom: 1.15em;
+  padding-bottom: 1.25em;
 }
 
 p {
   font-family: $bodyFont;
-}
-
-.headerImg{
-  padding-top: 1.25px;
 }
 
 #mainTitle{
