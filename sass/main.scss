@@ -1,0 +1,78 @@
+$bgColor: #f4f5f9;
+$fontColor:#3f4040;
+
+body{
+    background: $bgColor;
+    color: $fontColor;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+i{
+    padding: 6px
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+    text-shadow: .5px .5px #ccc;
+}
+
+.particles-js{
+    background: dodgerblue;
+    height: 400px;
+}
+
+.header-img{
+    width: 100%;
+}
+
+.section{
+    box-shadow: -2px 3px 9px 0px rgba(50, 50, 50, 0.47);
+    margin: 35px;
+    padding: 4px;
+}
+
+.icons{
+    margin: auto;
+    padding: 8px;
+}
+
+.tech-icon{
+    height: 75px;
+    width: 75px;
+    padding: 7px;
+    margin: 8px;
+}
+
+.tech-icon:hover{
+    height: 100px;
+    width: 100px;
+}
+
+.section-header{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.port-img{
+    display: block;
+    margin: auto;
+    padding-top: 9px;
+}
+
+.contact-body{
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    background: #343A40;
+    color: white;
+    margin-top: 65px;
+}
