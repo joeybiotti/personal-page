@@ -1,5 +1,11 @@
+//colors
 $bgColor: #f4f5f9;
 $fontColor:#3f4040;
+
+//box-shadow mixin
+@mixin box-shadow{
+    box-shadow: -2px 3px 9px 0px rgba(50, 50, 50, 0.47);
+}
 
 body{
     background: $bgColor;
@@ -11,8 +17,15 @@ body{
     width: 100%;
 }
 
-i{
-    padding: 6px
+.nav-icons{
+    padding: 4px;
+}
+
+.nav-icons{
+    .fa:hover{
+        text-decoration: none;
+        color: #fff;
+    }
 }
 
 .header{
@@ -22,19 +35,16 @@ i{
     text-shadow: .5px .5px #ccc;
 }
 
-.particles-js{
-    background: dodgerblue;
-    height: 400px;
-}
 
 .header-img{
     width: 100%;
 }
 
 .section{
-    box-shadow: -2px 3px 9px 0px rgba(50, 50, 50, 0.47);
+    @include box-shadow();
     margin: 35px;
     padding: 4px;
+    z-index: 250;
 }
 
 .icons{
@@ -60,10 +70,17 @@ i{
     padding-bottom: 5px;
 }
 
+#portfolio{
+    display: block;
+}
+
 .port-img{
+    @include box-shadow();
     display: block;
     margin: auto;
     padding-top: 9px;
+    height: 300px;
+    width: 425px;
 }
 
 .contact-body{

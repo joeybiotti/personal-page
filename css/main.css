@@ -6,8 +6,12 @@ body {
   position: fixed;
   width: 100%; }
 
-i {
-  padding: 6px; }
+.nav-icons {
+  padding: 4px; }
+
+.nav-icons .fa:hover {
+  text-decoration: none;
+  color: #fff; }
 
 .header {
   text-align: center;
@@ -15,17 +19,14 @@ i {
   padding-top: 70px;
   text-shadow: .5px .5px #ccc; }
 
-.particles-js {
-  background: dodgerblue;
-  height: 400px; }
-
 .header-img {
   width: 100%; }
 
 .section {
   box-shadow: -2px 3px 9px 0px rgba(50, 50, 50, 0.47);
   margin: 35px;
-  padding: 4px; }
+  padding: 4px;
+  z-index: 250; }
 
 .icons {
   margin: auto;
@@ -46,10 +47,16 @@ i {
   font-size: 24px;
   padding-bottom: 5px; }
 
+#portfolio {
+  display: block; }
+
 .port-img {
+  box-shadow: -2px 3px 9px 0px rgba(50, 50, 50, 0.47);
   display: block;
   margin: auto;
-  padding-top: 9px; }
+  padding-top: 9px;
+  height: 300px;
+  width: 425px; }
 
 .contact-body {
   text-align: center; }
