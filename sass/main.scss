@@ -15,6 +15,7 @@ body{
 .navbar{
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .nav-icons{
@@ -30,6 +31,7 @@ body{
 
 .header{
     text-align: center;
+    width: 100%;
     margin: auto;
     padding-top: 70px;
     text-shadow: .5px .5px #ccc;
@@ -60,8 +62,7 @@ body{
 }
 
 .tech-icon:hover{
-    height: 100px;
-    width: 100px;
+    opacity: 0.5;
 }
 
 .section-header{
@@ -81,6 +82,18 @@ body{
     padding-top: 9px;
     height: 300px;
     width: 425px;
+    z-index: 2;
+}
+
+.port-img:hover{
+    opacity: 0.6;
+}
+
+.port-descipt{
+    padding: 2px;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 12px;
 }
 
 .contact-body{
