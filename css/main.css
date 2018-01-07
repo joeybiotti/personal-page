@@ -21,6 +21,18 @@ p {
   text-decoration: none;
   color: #fff; }
 
+#nav {
+  transition: all 0.6s ease-out; }
+
+#nav {
+  transition: opacity 0.25s; }
+
+.navbar-fixed {
+  opacity: 0.9; }
+
+.navbar-trans {
+  opacity: 1; }
+
 .header {
   text-align: center;
   width: 100%;
