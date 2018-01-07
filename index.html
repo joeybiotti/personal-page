@@ -1,153 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Joey Biotti, Software Developer</title>
-  <link rel="icon" href="img/favicon.ico" />
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Joey Biotti, Software Developer</title>
 </head>
 
 <body>
+  <nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark">
 
-  <nav class="navbar navbar-default navbar-fixed-top navbar-collapse" id="nav">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#tech">Tech</a></li>
-          <li><a href="#port">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tech">Technology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-icons">
+          <a href="http://www.github.com/joeybiotti" class="fa fa-inverse fa-github fa-2x"></a>
+        </li>
+        <li class="nav-icons">
+          <a href="mailto:joeybiotti4@gmail.com" class="fa fa-inverse fa-envelope fa-2x"></a>
+        </li>
+        <li class="nav-icons">
+          <a href="https://www.linkedin.com/in/joey-biotti/" class="fa fa-inverse fa-linkedin-square fa-2x"></a>
+        </li>
+      </ul>
     </div>
   </nav>
 
-  <div id="header">
-    <h1 id="mainTitle">Joey Biotti</h1>
-    <h2 id="subheader">Software Developer | Nashville, TN</h2>
-    <img class="headerImg" src="./img/skyline.svg">
+  <header class="header" id="header">
+    <div class="container">
+      <h1 class="display-1">Joey Biotti</h1>
+      <h2>Software Developer</h2>
+      <h4>Nashville, TN</h4>
+    </div>
+  </header>
+
+  <div class="container">
+    <img class="mx-auto d-block" id="headshot" src="img/headshot.jpeg" alt="headshot">
   </div>
-  <br>
-  <div id="about"></div>
-  <br>
-  <div class="content">
-    <h3> The Obligatory Bio.</h3>
-    <center>
-      <p class="contentText">Making computers do stuff is fun. <i>Learning how</i> they do stuff is even more fun.</p>
-    </center>
-    <p class="contentText">Back in the day, I built Angelfire sites with my friends. We had no idea what we were doing, and the sites looked bad
-      (even by 90's standards). Despite this, building simple websites was super fun. All these years later, writing code
-      and building software is still just as fun, except now I actually know what I'm doing.</p>
-    <p class="contentText">Originally from Boston, Massachusetts, I moved to Nashville after having my fill of New England winter in late 2011.
-      Once I got here, I started working for an HR Consulting company. My interest in tech was still just as strong, and
-      the idea of learning to code was always in the back of my mind. In late 2016, I found out about <a href="http://nashvillesoftwareschool.com/">Nashville Software School</a>      and finally took the plunge and enrolled in April, 2017. After an intense six months, I learned more than how to write
-      code-- I learned <i>how to learn</i> to write code and how to solve problems. With these skills in my toolbox, and
-      the know-how I gained from NSS, I'm ready to take the next step become the best developer I can be.</p>
-    <p class="contentText">When I'm not writing code or learning a new aspect of programming, I'm usually reading a book, cooking, hiking, trying
-      new craft beers or playing with my dogs.</p>
-    </p>
+
+  <div id="about">
+    <br>
+    <br>
+    <div class="section">
+      <div class="container my-4">
+        <h6 class="section-header">Let me tell you a little bit about myself...</h6>
+        <p>Back in the day, I built Angelfire sites with my friends. We had no idea what we were doing, and the sites looked bad (even by 90's standards). Despite this, building simple websites was super fun. All these years later, writing code and building software is still just as fun, except now I actually know what I'm doing..</p>
+        <p>After graduating from Boston College with an English Degree, I realized my interest in technology was still just as strong, and the idea of learning to code was always in the back of my mind. In late 2016, I found out about <a href="www.nashvillesoftwareschool.com" class="">Nashville Software School</a> and finally took the plunge and enrolled in April, 2017. After an intense six months, I learned more than how to write code-- I learned how to learn to write code and how to solve problems. With these skills in my toolbox, and the know-how I gained from NSS, I'm ready to take the next step become the best developer I can be.</p>
+      </div>
+    </div>
   </div>
-  <div id="tech"></div>
-  <br />
-  <div class="content">
-    <div class="tech">
-      <h2>Some of the Technology I've Used.</h2>
-      <div class="tech-img">
+  <div id="tech">
+    <br>
+    <br>
+    <div class="section">
+      <div class="container my-6">
+        <h6 class="section-header">Tech Used</h6>
+        <p class="text-center">During my time at NSS, I was exposed to...</p>
         <div class="row">
-          <img class="techImg" src="img/html.svg">
-          <img class="techImg" src="img/css.svg">
-          <img class="techImg" src="img/js.svg">
-          <img class="techImg" src="img/jquery.svg">
-          <img class="techImg" src="img/bootstrap.svg">
-          <img class="techImg" src="img/material.svg">
-          <img class="techImg" src="img/bower.svg">
-          <img class="techImg" src="img/sass.svg">
-          <img class="techImg" src="img/angular.svg">
-          <img class="techImg" src="img/git.svg">
-          <img class="techImg" src="img/atom.svg">
-          <img class="techImg" src="img/csharp.svg">
-          <img class="techImg" src="img/dotnet.svg">
-          <img class="techImg" src="img/trello.svg">
-          <img class="techImg" src="img/visualstudio.svg">
-          <img class="techImg" src="img/github.svg">
-          <img class="techImg" src="img/hbs.svg">
-          <img class="techImg" src="img/grunt.svg">
-          <img class="techImg" src="img/npm.svg">
-          <img class="techImg" src="img/gulp.svg">
-          <img class="techImg" src="img/yarn.svg">
-          <img class="techImg" src="img/sqlite.png">
-          <img class="techImg" src="img/chrome.svg">
-          <img class="techImg" src="img/yeoman.png">
+          <div class="icons">
+            <img class="tech-icon" src="img/html.svg">
+            <img class="tech-icon" src="img/css.svg">
+            <img class="tech-icon" src="img/js.svg">
+            <img class="tech-icon" src="img/angular.svg">
+            <img class="tech-icon" src="img/atom.svg">
+            <img class="tech-icon" src="img/chrome.svg">
+            <img class="tech-icon" src="img/jquery.svg">
+            <img class="tech-icon" src="img/sass.svg">
+            <img class="tech-icon" src="img/grunt.svg">
+            <img class="tech-icon" src="img/browserify.png">
+            <img class="tech-icon" src="img/sqlite.png">
+            <img class="tech-icon" src="img/visualstudio.svg">
+            <img class="tech-icon" src="img/npm.svg">
+            <img class="tech-icon" src="img/hbs.svg">
+            <img class="tech-icon" src="img/git.svg">
+            <img class="tech-icon" src="img/github.svg">
+            <img class="tech-icon" src="img/dotnet.svg">
+            <img class="tech-icon" src="img/bootstrap.svg">
+            <img class="tech-icon" src="img/csharp.svg">
+            <img class="tech-icon" src="img/bower.svg">
+            <img class="tech-icon" src="img/material.svg">
+            <img class="tech-icon" src="img/yarn.svg">
+            <img class="tech-icon" src="img/vim.svg">
+            <img class="tech-icon" src="img/yeoman.png">
+          </div>
         </div>
-        <div>
-          <p class="contexText"></p>
+        <p class="text-center">And since graduation, I've been learning...</p>
+        <div class="row">
+          <div class="icons">
+            <img class="tech-icon" src="img/react.svg">
+            <img class="tech-icon" src="img/python.svg">
+            <img class="tech-icon" src="img/vue.svg">
+            <img class="tech-icon" src="img/webpack.svg">
+            <img class="tech-icon" src="img/coffeescript.svg">
+            <img class="tech-icon" src="img/less.svg">
+            <img class="tech-icon" src="img/typescript.svg">
+            <img class="tech-icon" src="img/gulp.svg">
+            <img class="tech-icon" src="img/bulma.png">
+            <p class="text-center">As I continue my journey, I hope to add many more languages, frameworks and libraries to my toolbox.</p>
+          </div>
         </div>
       </div>
-      <div>
-        <h2>And some Stuff I've Played Around With.</h2>
-        <img class="techImg" src="img/python.svg">
-        <img class="techImg" src="img/coffeescript.svg">
-        <img class="techImg" src="img/typescript.svg">
-        <img class="techImg" src="img/react.svg">
-        <img class="techImg" src="img/vue.svg">
-        <img class="techImg" src="img/vim.svg">
-        <img class="techImg" src="img/webpack.svg">
-        <img class="techImg" src="img/less.svg">
+    </div>
+  </div>
+  <div id="portfolio">
+    <br>
+    <br>
+    <div class="section">
+      <h6 class="section-header">Portfolio</h6>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+          <h6 class="text-center">DogFetcher</h6>
+          <img src="img/frontend.png" alt="front end" class="port-img">
+          <p class="port-descipt">A single page web application built to help users find rescue dogs in their local area. Using the PetFinder.com API, a random dog is displayed upon page load. The user is able to save the dog to their profile, view a listing of twenty five local shelters in the Nashville, TN area, as well as the complete listings for each shelter. Built with AngularJS, Sass, Bootstrap and Firebase.</p>
+          </div>
+          <div class="col-6">
+          <h6 class="text-center">BiblioFile</h6>
+          <img src="img/backend.png" alt="back end" class="port-img">
+          <p class="port-descipt">BiblioFile is an MVC web app that allows uses to catalogue what’s on their bookshelf, both what has been read and what the user is planning on reading. The user’s collections are searchable and books can be added or removed at any time. User’s books can also be moved from the “To Read” section to the “Read” table. Built using C#/.NET, ASP.NET, SQLite and Bootstrap.</p>
+          </div>
+        </div>
       </div>
-      <p class="contentText">More to come...</p>
     </div>
   </div>
 
-  <div id="port"></div>
-  <br>
-  <div class="content">
-    <h3>Some Projects I've Worked On.</h3>
-    <p class="projects">
-      <h4 class="projTitle">DogFetcher</h4>
-      <a href="https://github.com/joeybiotti/dogFetcher">
-        <img class="projectImg" src="img/frontend.png" width="500" height="375">
-      </a>
-      <p class="contentText">A single page web application built to help users find rescue dogs in their local area. Using the PetFinder.com API,
-        a random dog is displayed upon page load. The user is able to save the dog to their profile, view a listing of twenty
-        five local shelters in the Nashville, TN area, as well as the complete listings for each shelter. Built with AngularJS,
-        Sass, Bootstrap and Firebase. </p>
-      <hr>
-      <h4 class="projTitle">BiblioFile</h4>
-      <a href="https://github.com/joeybiotti/bibliofile">
-        <img class="projectImg" src="img/backend.png" width="500" height="375">
-      </a>
-      <p class="contentText">BiblioFile is an MVC web app that allows uses to catalogue what’s on their bookshelf, both what has been read and what
-        the user is planning on reading. The user’s collections are searchable and books can be added or removed at any time.
-        User’s books can also be moved from the “To Read” section to the “Read” table. Built using C#/.NET, ASP.NET, SQLite
-        and Bootstrap.</p>
-    </p>
-  </div>
-  <div id="contact"></div>
-  <br>
-  <div class="content">
-    <h3>How to Get in Touch.</h3>
-    <p class="contentText">If you'd like to get in touch, shoot me an <a href="mailto:joeybiotti4@gmail.com">email</a>. I'm always working on something,
-      so feel free to check out my GitHub <a href="https://github.com/joeybiotti">repos</a>. Social media's not really my
-      thing these days, but if its your's, let's connect on <a href="https://www.linkedin.com/in/joey-biotti/">LinkedIn</a>.
+    <br>
+    <div class="section" id="contact">
+      <h6 class="section-header">How to Get In Touch</h6>
+      <p class="contact-body">If you'd like to get in touch, shoot me an <a href="mailto:joeybiotti4@gmail.com">email</a>. I'm always working on something, so feel free to check out my <a href="http://www.github.com/joeybiotti">GitHub</a> repos or connect with me on <a href="https://www.linkedin.com/in/joey-biotti/">LinkedIn</a>.
+      <br>
       I look forward to hearing from you.</p>
-  </div>
-  <footer>
-    Joey Biotti, &copy; 2017
-  </footer>
-</body>
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="javascripts/main.js"></script>
+    <footer id="footer">
+      <p>Joey Biotti, &copy;2017-2018</p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+</body>
 
 </html>

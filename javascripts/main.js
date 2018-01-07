@@ -1,5 +1,6 @@
-// navbar fades on scroll
+console.log('main.js loaded');
 
+//navbar fades on scroll
  $(document).ready(function() {
 
   $(window).scroll(function () {
