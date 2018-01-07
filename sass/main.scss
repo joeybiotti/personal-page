@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+//fonts
+$headerFont: 'Julius Sans One', sans-serif;
+$bodyFont: 'Open Sans', sans-serif;
+
 //colors
 $bgColor: #f4f5f9;
 $fontColor:#3f4040;
@@ -10,6 +17,10 @@ $fontColor:#3f4040;
 body{
     background: $bgColor;
     color: $fontColor;
+}
+
+p{
+    font-family: $bodyFont;
 }
 
 .navbar{
@@ -35,6 +46,7 @@ body{
     margin: auto;
     padding-top: 70px;
     text-shadow: .5px .5px #ccc;
+    font-family: $headerFont;
 }
 
 
@@ -69,10 +81,13 @@ body{
     text-align: center;
     font-size: 24px;
     padding-bottom: 5px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    font-family: $headerFont;
 }
 
-#portfolio{
-    display: block;
+#about{
+    margin-top: 185px;
 }
 
 .port-img{
